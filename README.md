@@ -3,6 +3,9 @@ This is my readme file I've created on VSCode - hope this works.
 
 Outline for Recipe Website
 
+Full credit to: https://www.thespruceeats.com/copycat-popeyes-chicken-sandwich-4781133 for the images
+Full credit to: https://www.youtube.com/watch?v=T5SYu8tyKjM&list=PL4WiRZw8bmXuC6Pd84tLVtQgrMLVhXzu2 Joshua Weissman for instructions
+
 Site Specific:
 Some site specific stuff... we need the name of the cooking website, probably a logo or a header photo, a nav bar with links to other recipes and then social media links can either be in the footer area or header, copyright is in the footer area
 
