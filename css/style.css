@@ -89,7 +89,7 @@ p {
 }
 
 .container {
-    background: linear-gradient(rgba(250,188,60, 1.0), rgba(250,188,60, 0.3)), url("../popeyes.jpeg");
+    background: linear-gradient(rgba(250,188,60, 1.0), rgba(250,188,60, 0.3)), url("./popeyes.jpeg");
     background-position:center;
     border-radius: 10px;
     background-size: contain;
