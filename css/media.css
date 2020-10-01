@@ -1,0 +1,260 @@
+@media screen and (min-width:768px){
+
+body{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.web-name {
+    display: flex;
+    justify-content: center;
+}
+
+.brand {
+    padding-left: .5em;
+    padding-right: .5em;
+    font-size: 40px;
+}
+
+.logo {
+    width: 1.5em;
+}
+
+.nav-bar-a {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-b {
+    flex-grow: .5;
+}
+
+.nav-item {
+    font-size: 15px;
+}
+
+div.ingr-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h2 {
+    margin-bottom: .5em;
+    text-align: center;
+    font-size: 23px;
+}
+.sections {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    width: 70%;
+    margin-top: .3em;
+}
+
+h4 {
+    margin: .5em;
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 15px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+form {
+    display: none;
+}
+
+}
+
+@media screen and (min-width:1024px) {
+
+:root {
+    --col-a:#f3a260;
+    --col-text: #2b2727;
+    --col-b: #fabc3c;
+}
+    
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: "title title"
+                         "side content"
+                         "bar content"
+                         ". content";
+}
+
+form {
+    display: flex;
+    padding-left: .2em;
+}
+
+::placeholder {
+    color: var(--col-text);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background: transparent;
+    border:none;
+    padding: 0em;
+    padding-right: .5em;
+    padding-top: .6em;
+    height: -10em;
+}
+
+span.material-icons.done {
+    font-size: 20px;
+    padding: 0em;
+}
+
+input {
+    grid-area: side;
+    width: 80%;
+    justify-content: center;
+    border: none;
+    background: rgba(0, 0, 0, 0.25);
+    margin: .5em;
+    margin-top: 1em;
+    padding: .2em;
+    border-radius: 20px;
+}
+
+.web-name {
+    grid-area: title;
+    justify-items: center;
+    background-color: var(--col-text);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--col-b);
+    border-width: 1em;
+}
+
+.brand {
+    font-size: 60px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav-bar-a {
+    grid-area: bar;
+    background-color: var(--col-text);
+    border-color: var(--col-b);
+    margin: .5em;
+    border-radius: 20px;
+    border-width: 10px;
+    border-style: solid;
+    margin: 0em;
+    margin-top: .5em;
+    margin-right: .5em;
+}
+
+.nav-bar-b {
+    padding: 0em;
+    background-color: transparent;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: var(--col-b);
+}
+
+.li-nav {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+main {
+    grid-area: content;
+}
+
+h1.title {
+    margin-top: 0em;
+    font-size: 45px;
+}
+
+.link-a, .prep {
+    font-size: 18px;
+}
+
+section.sections {
+    grid-area: content;
+    width: auto;
+    border-style: solid;
+    border-color: var(--col-text);
+}
+
+img {
+    width: 70%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 25px;
+    margin: .5em;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 16px;
+}
+
+span.material-icons {
+    font-size: 30px;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.links {
+    justify-content: center;
+}
+
+.link-item {
+    font-size: 18px;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.copyright {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--col-b);
+}
+
+}
